@@ -1,0 +1,40 @@
+{
+  "name": "chrome-extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
+    "lint": "eslint .",
+    "build": "webpack --config webpack.prod.ts",
+    "start": "webpack --watch --config webpack.dev.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@tsconfig/recommended": "^1.0.7",
+    "@types/chrome": "^0.0.278",
+    "@types/eslint__js": "^8.42.3",
+    "@types/jest": "^29.5.13",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.13.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss-loader": "^8.1.1",
+    "prettier": "3.3.3",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.14",
+    "ts-jest": "^29.2.5",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.10.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-merge": "^6.0.1"
+  }
+}
